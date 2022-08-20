@@ -7,3 +7,7 @@
 		<Navbar />
 	</div>
 </template>
+
+<svelte:head>
+	<title>Instrument</title>
+</svelte:head>

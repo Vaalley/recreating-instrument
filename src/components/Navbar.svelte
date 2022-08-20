@@ -20,11 +20,37 @@
 				>
 			</a>
 		</div>
-		<ul class="flex gap-[70px] font-ibm-plex-mono text-sm tracking-widest font-semibold">
-			<a href="/"><li>WHAT WE DO</li></a>
-			<a href="/"><li>WHO WE ARE</li></a>
-			<a href="/"><li>BEING HERE</li></a>
-			<a href="/"><li>CAREERS</li></a>
+		<ul class="flex gap-[30px] font-ibm-plex-mono text-sm tracking-widest font-semibold">
+			<a class="hover-effect" href="/"><li>WHAT WE DO</li></a>
+			<a class="hover-effect" href="/"><li>WHO WE ARE</li></a>
+			<a class="hover-effect" href="/"><li>BEING HERE</li></a>
+			<a class="hover-effect" href="/"><li>CAREERS</li></a>
 		</ul>
 	</div>
 </template>
+
+<style>
+	a.hover-effect {
+		display: flex;
+	}
+
+	a.hover-effect::before {
+		content: '[\00A0';
+	}
+
+	a.hover-effect::after {
+		content: '\00A0]';
+	}
+
+	a.hover-effect::before,
+	a.hover-effect::after {
+		opacity: 0;
+		transition: opacity 0.3s ease-in-out;
+	}
+
+	a.hover-effect:hover::before,
+	a.hover-effect:hover::after {
+		opacity: 0.5;
+		transition: opacity 0.3s ease-in-out;
+	}
+</style>
