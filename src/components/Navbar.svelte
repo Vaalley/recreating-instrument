@@ -1,5 +1,5 @@
 <template>
-	<div class="h-[119px] flex items-center justify-end">
+	<div class="h-[119px] flex items-center justify-end bg-black z-10 sticky top-0">
 		<div class="w-[110px] h-[19.25px] mr-auto">
 			<a href="/">
 				<svg
