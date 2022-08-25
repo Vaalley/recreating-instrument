@@ -4,6 +4,7 @@
 	import News1 from '../components/News1.svelte';
 	import News2 from '../components/News2.svelte';
 	import OurWork from '../components/OurWork.svelte';
+	import Showcase from '../components/Showcase.svelte';
 	import VideoHero from '../components/VideoHero.svelte';
 </script>
 
@@ -28,6 +29,7 @@
 			buttonText="What we do →"
 		/>
 		<OurWork buttonText="Our work →" />
+		<Showcase />
 	</div>
 </template>
 
