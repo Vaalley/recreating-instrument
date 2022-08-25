@@ -7,7 +7,7 @@
 		<div
 			class="flex items-center justify-center font-barlow-condensed text-7xl text-center tracking-wider font-medium"
 		>
-			<h2>Explore a few of our most<br /> impactful projects</h2>
+			<h2>We’d love to be your partner</h2>
 		</div>
 		<div
 			class="flex items-center justify-center font-barlow-condensed text-7xl text-center tracking-wider font-medium mt-12"

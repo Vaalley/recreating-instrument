@@ -1,4 +1,5 @@
 <script>
+	import GetInTouch from '../components/GetInTouch.svelte';
 	import HeroHeader from '../components/HeroHeader.svelte';
 	import Navbar from '../components/Navbar.svelte';
 	import News1 from '../components/News1.svelte';
@@ -30,6 +31,7 @@
 		/>
 		<OurWork buttonText="Our work →" />
 		<Showcase />
+		<GetInTouch buttonText="Get in touch →" />
 	</div>
 </template>
 

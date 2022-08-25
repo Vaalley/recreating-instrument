@@ -17,7 +17,7 @@
 					{paragraph}
 				</p>
 				<button
-					class="w- font-ibm-plex-mono font-medium tracking-widest text-sm text-black bg-white hover:bg-slate-300 py-4 px-6 rounded-full"
+					class="w- font-ibm-plex-mono font-medium tracking-widest text-sm text-black bg-white hover:bg-slate-300 py-4 px-6 rounded-full transition-all"
 					>{buttonText}</button
 				>
 			</div>
