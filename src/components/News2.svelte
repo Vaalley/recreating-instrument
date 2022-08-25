@@ -2,10 +2,12 @@
 	export let buttonText;
 	export let paragraph;
 	export let imgLink;
+
+	import onScrollActivate from '../directives/on-scroll-activate';
 </script>
 
 <template>
-	<div class="flex mb-64">
+	<div class="flex mb-64 fade-in" use:onScrollActivate>
 		<div class="w-5/12 flex items-center justify-center">
 			<div class="w-3/5">
 				<p class="font-barlow-condensed font-medium text-3xl tracking-wider mb-10">
