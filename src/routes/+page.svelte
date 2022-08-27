@@ -1,4 +1,5 @@
 <script>
+	import Footer from '../components/Footer.svelte';
 	import GetInTouch from '../components/GetInTouch.svelte';
 	import HeroHeader from '../components/HeroHeader.svelte';
 	import Navbar from '../components/Navbar.svelte';
@@ -32,6 +33,7 @@
 		<OurWork buttonText="Our work →" />
 		<Showcase />
 		<GetInTouch buttonText="Get in touch →" />
+		<Footer />
 	</div>
 </template>
 
