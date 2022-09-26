@@ -1,4 +1,5 @@
 <script>
+	import FadingLogos from '../components/FadingLogos.svelte';
 	import Footer from '../components/Footer.svelte';
 	import GetInTouch from '../components/GetInTouch.svelte';
 	import HeroHeader from '../components/HeroHeader.svelte';
@@ -32,6 +33,7 @@
 		/>
 		<OurWork buttonText="Our work →" />
 		<Showcase />
+		<FadingLogos />
 		<GetInTouch buttonText="Get in touch →" />
 		<Footer />
 	</div>

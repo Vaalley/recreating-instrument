@@ -1,6 +1,8 @@
 <template>
 	<div class="flex mb-12 items-end justify-end">
-		<div class="grid grid-cols-2 grid-rows-5 w-2/6 gap-5 mr-auto font-ibm-plex-mono">
+		<div
+			class="grid grid-cols-2 grid-rows-5 w-2/6 gap-6 mr-auto font-ibm-plex-mono text-sm font-medium tracking-widest"
+		>
 			<a href="/" class="hover-effect">HOME</a>
 			<a href="/" class="hover-effect">BEING HERE</a>
 			<a href="/" class="hover-effect">WHAT WE DO</a>
@@ -13,7 +15,7 @@
 		</div>
 		<div class="flex gap-12 items-center">
 			<button
-				class="px-10 py-4 font-sans border border-neutral-700 hover:border-neutral-800 transition-all rounded-full"
+				class="px-10 py-4 font-barlow-condensed font-medium border border-neutral-700 hover:border-neutral-800 transition-all rounded-full text-sm tracking-widest"
 				>NEWSLETTER →</button
 			>
 			<svg
