@@ -7,20 +7,20 @@
 </script>
 
 <template>
-	<div class="flex mb-64 fade-in" use:onScrollActivate>
-		<div class="w-5/12 flex items-center justify-center">
-			<div class="w-3/5">
-				<p class="font-barlow-condensed font-medium text-3xl tracking-wider mb-10">
+	<div class="flex mb-64 -md:mb-32 fade-in -md:block" use:onScrollActivate>
+		<div class="w-7/12 -md:w-full">
+			<img src={imgLink} alt="" />
+		</div>
+		<div class="w-5/12 -md:w-full flex items-center justify-center">
+			<div class="w-3/5 -md:w-full">
+				<p class="font-barlow-condensed font-medium text-3xl tracking-wider mb-10 -md:text-xl">
 					{paragraph}
 				</p>
 				<button
-					class="w- font-ibm-plex-mono font-medium tracking-widest text-sm text-black bg-white hover:bg-slate-300 py-4 px-6 rounded-full transition-all"
+					class="font-ibm-plex-mono font-medium tracking-widest text-sm text-black bg-white hover:bg-slate-300 py-4 px-6 rounded-full transition-all -md:text-xs"
 					>{buttonText}</button
 				>
 			</div>
-		</div>
-		<div class="w-7/12">
-			<img src={imgLink} alt="" />
 		</div>
 	</div>
 </template>

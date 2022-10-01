@@ -3,7 +3,7 @@
 </script>
 
 <template>
-	<div class="flex items-center justify-between">
+	<div class="flex items-center justify-between -md:block">
 		<a href="/" class="w-[48%]">
 			<div class="fade-in" use:onScrollActivate>
 				<img
@@ -11,7 +11,9 @@
 					alt="Eames Institute"
 				/>
 				<h3 class="font-barlow-condensed font-medium text-3xl mt-4">Eames Institute</h3>
-				<p class="font-ibm-plex-mono text-sm font-medium tracking-widest w-3/5 mt-4 leading-6">
+				<p
+					class="font-ibm-plex-mono text-sm font-medium tracking-widest w-5/5 mt-4 leading-6 -md:mb-24"
+				>
 					Ray and Charles Eames laid the foundation for modern design and created work that has
 					transcended time. With an aspiration to bring the Eameses’ timeless methodologies to a
 					modern audience, the Eames Institute enlisted Instrument to co-create a digital platform
@@ -28,7 +30,7 @@
 				<h3 class="font-barlow-condensed font-medium text-3xl mt-4">
 					Dropbox "For All Things Worth Saving"
 				</h3>
-				<p class="font-ibm-plex-mono text-sm font-medium tracking-widest w-3/5 mt-4 leading-6">
+				<p class="font-ibm-plex-mono text-sm font-medium tracking-widest w-5/5 mt-4 leading-6">
 					To evolve and mature how Dropbox engages with their customers, we developed a multi-year
 					brand platform as well as launched its first campaign titled 'For All Things Worth Saving'
 					— an ecosystem of branded experiences aimed to remind people of the inherent value of

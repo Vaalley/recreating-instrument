@@ -6,7 +6,14 @@ module.exports = {
 			fontFamily: {
 				"barlow-condensed": "Barlow Condensed",
 				"ibm-plex-mono": "IBM Plex Mono",
-			}
+			},
+			screens: {
+				// '-2xl': { max: '1439px' },
+				'-xl': { max: '1279px' },
+				'-lg': { max: '1023px' },
+				'-md': { max: '767px' },
+				'-sm': { max: '639px' },
+			},
 		}
 	},
 	plugins: []

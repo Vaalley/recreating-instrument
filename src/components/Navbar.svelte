@@ -1,6 +1,12 @@
+<script>
+	function burgerButtonClick() {
+		document.getElementsByClassName('burger-menu')[0].classList.toggle('hidden');
+	}
+</script>
+
 <template>
-	<div class="h-[119px] flex items-center justify-end bg-black z-10 sticky top-0">
-		<div class="w-[110px] h-[19.25px] mr-auto">
+	<div class="h-[90px] flex items-center justify-end bg-black z-10 sticky top-0">
+		<div class="w-[110px] h-[19.25px] mr-auto -md:ml-6">
 			<a href="/">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -20,11 +26,40 @@
 				>
 			</a>
 		</div>
-		<ul class="flex gap-[30px] font-ibm-plex-mono text-sm tracking-widest font-semibold">
+		<ul
+			class="flex gap-[30px] font-ibm-plex-mono text-sm tracking-widest font-semibold -lg:text-xs -md:hidden"
+		>
 			<a class="hover-effect" href="/"><li>WHAT WE DO</li></a>
 			<a class="hover-effect" href="/"><li>WHO WE ARE</li></a>
 			<a class="hover-effect" href="/"><li>BEING HERE</li></a>
 			<a class="hover-effect" href="/"><li>CAREERS</li></a>
+		</ul>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke-width="1.5"
+			stroke="currentColor"
+			class="w-10 h-10 hidden -md:block burger-button cursor-pointer"
+			on:click={burgerButtonClick}
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+			/>
+		</svg>
+	</div>
+	<div
+		class="hidden font-ibm-plex-mono text-md font-medium tracking-widest absolute w-full z-30 h-full bg-black burger-menu"
+	>
+		<ul class="p-12 pt-32 gap-12 grid grid-cols-1">
+			<a class="hover-effect" href="/"><li class="">WHAT WE DO</li></a>
+			<a class="hover-effect" href="/"><li class="">WORK</li></a>
+			<a class="hover-effect" href="/"><li class="">WHO WE ARE</li></a>
+			<a class="hover-effect" href="/"><li class="">BEING HERE</li></a>
+			<a class="hover-effect" href="/"><li class="">CAREERS</li></a>
+			<a class="hover-effect" href="/"><li class="">CONTACT</li></a>
 		</ul>
 	</div>
 </template>
